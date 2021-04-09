@@ -22,32 +22,39 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lc1-bX-dPe">
-                                <rect key="frame" x="82" y="681" width="250" height="58"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gPp-BH-0yc">
+                                <rect key="frame" x="73.666666666666686" y="694" width="267" height="52"/>
                                 <color key="backgroundColor" systemColor="linkColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="0RU-tp-3O7"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="267" id="eHw-w9-EKK"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <state key="normal" title="Show Text">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="showTextButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="5qW-kU-NIC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.27475127721529657" green="0.63216145833333326" blue="0.51992031052277721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lc1-bX-dPe" secondAttribute="bottom" constant="123" id="0Yb-Tb-grI"/>
-                            <constraint firstItem="lc1-bX-dPe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nr6-Ia-UvJ"/>
+                            <constraint firstItem="gPp-BH-0yc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SoD-xw-CYn"/>
                             <constraint firstItem="MUt-T1-B2f" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="171" id="U0q-S0-I0j"/>
                             <constraint firstItem="MUt-T1-B2f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="ayP-1S-xDG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gPp-BH-0yc" secondAttribute="bottom" constant="116" id="fP0-ea-9Qp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MUt-T1-B2f" secondAttribute="trailing" constant="70" id="s1j-2E-s62"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloWorldLabel" destination="MUt-T1-B2f" id="ZKE-8c-Bna"/>
+                        <outlet property="showTextButton" destination="gPp-BH-0yc" id="ndS-HZ-1n4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-216" y="60"/>
+            <point key="canvasLocation" x="-400.00000000000006" y="-828.34821428571422"/>
         </scene>
     </scenes>
     <resources>
